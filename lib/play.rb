@@ -34,6 +34,7 @@ def turn(board)
   else
     turn(board)
   end
+  counter += 1
 end
 
 def play(board)
